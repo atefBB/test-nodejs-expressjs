@@ -1,3 +1,5 @@
 var http = require('http');
-console.log(http);
+http.createServer(function(req, res) {
+	console.log(req, res);
+}, 1425);
 //console.error("Error");  
