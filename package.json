@@ -1,0 +1,19 @@
+{
+  "name": "node-book-practices-2017",
+  "version": "0.0.1",
+  "description": "node book practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "book",
+    "practices"
+  ],
+  "author": "atef ben ali",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^2.6.1"
+  }
+}
