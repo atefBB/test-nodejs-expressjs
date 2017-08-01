@@ -11,9 +11,5 @@ app.get('/test', function(req, res) {
 });
 
 app.listen(3000, function () {
-    console.log('The App is listening on http://localhost:3000.');
+    console.log('The App is listening on http://localhost:8800.');
 });
-
-//server.listen(8080);
-//console.log("Server is listening on localhost:8080");
-//console.error("Error");  
