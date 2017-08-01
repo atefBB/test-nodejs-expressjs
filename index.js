@@ -10,6 +10,6 @@ app.get('/test', function(req, res) {
    res.send('Test route!');
 });
 
-app.listen(3000, function () {
-    console.log('The App is listening on http://localhost:8800.');
+app.listen(3300, function () {
+    console.log('The App is listening on http://localhost:3300.');
 });
