@@ -1,5 +1,19 @@
 var http = require('http');
-http.createServer(function(req, res) {
-	console.log(req, res);
-}, 1425);
+const express = require('express'),
+      app = express();
+
+app.get('/', function (req, res) {
+    res.send('Hello for NodeJS World!');
+});
+
+app.get('/test', function(req, res) {
+   res.send('Test route!');
+});
+
+app.listen(3000, function () {
+    console.log('The App is listening on http://localhost:3000.');
+});
+
+//server.listen(8080);
+//console.log("Server is listening on localhost:8080");
 //console.error("Error");  

@@ -14,6 +14,7 @@
   "author": "atef ben ali",
   "license": "ISC",
   "dependencies": {
-    "debug": "^2.6.1"
+    "debug": "^2.6.1",
+    "express": "^4.15.3"
   }
 }
